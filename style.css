@@ -31,9 +31,12 @@ img {
     z-index: 10000;
     gap: 1.5rem;
     opacity: 0.9;
-
 }
 
+.section-home hr {
+    height: 20px;
+    background-color: #1E2832;
+}
 .menu-nav {
     display: flex;
     justify-content: space-between; 
@@ -115,13 +118,14 @@ img {
     font-size: 0.9rem;
     color: #1E2832;
     margin: 0.5rem 0 1.4rem;
+    font-weight: 600;
 }
 
 
 .btn {
     padding: 10px;
     border-radius: 0.3rem;
-    background: #fff;;
+    background: #fff;
     color: #2196F3;
     border: 1px solid #2196F3;
     font-weight: 500;
@@ -134,3 +138,27 @@ img {
     text-decoration: underline;
 }
 
+.icons-business {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.icons {
+    margin: 0 20px;
+}
+
+.heading-buniness { 
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #000;
+    letter-spacing: 1px;  
+}
+
+.text-business{ 
+    font-size: 14px;
+    color: #4e4e4e;
+    font-weight: 500;
+}
