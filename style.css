@@ -217,6 +217,13 @@ img {
     font-weight: 600;
 }
 
+.btn-numbers {
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #fff;
+    border: none;
+}
+
 .line-results { 
     height: 10px;
     border-radius: 5px;
